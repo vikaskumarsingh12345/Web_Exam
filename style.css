@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    color: black;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 1520px;
+}
+
+.navbar img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.navbar h2{
+    margin-top: 10px;
+    margin-right: 450px;
+}
+.navbar div{
+    margin-top: 10px;
+}
+
+.navbar div:hover{
+    color:darkorange;
+}
+
+.para1{
+    margin-top: 50px;
+    background: url("banner-bg.webp");
+    height: 500px;
+    /* width: 700px; */
+    
+}
+
+.para1 h2{
+    margin-left: 450px;
+    padding-top: 150px;
+    font-size: 50px;
+}
+
+.para1 p{
+    padding-top: 30px;
+    margin-left: 600px;
+}
+.para1 .button{
+    margin-left: 750px;
+    margin-top: 40px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5%;
+}
+
+.para1 .button:hover{
+    color: coral;
+    background-color: aquamarine;
+}
+
+.para2{
+    background-color: white;
+}
+.para2 .box1{
+    border: 2px solid black;
+    height: 500px;
+    width: 1200px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.para2 h2{
+    font-size: 40px;
+    margin-left: 520px;
+}
+
+.imgcu{
+    padding-left: 500px;
+    padding-top: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.para2{
+    background-color: white;
+}
+.para2 p{
+    padding-top: 50px;
+    padding-left: 350px;
+    font-size: 20px;
+}
+
+.para2 h1{
+    padding-top: 40px;
+    padding-left: 510px;
+}
+
+.para2 .box1 .star{
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 410px;
+}
+
+
+.para3 h1{
+    font-size: 50px;
+    margin-left: 600px;
+}
+
+.para3 .bigbox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 40px;
+}
+
+.para3 .bigbox div{
+    
+    height: 500px;
+    width: 500px;
+}
+
+.bbimg1{
+    height: 400px;
+    width: 400px;
+}
+.bbimg2{
+    height: 400px;
+    width: 400px;
+}
+
+.bbimg3{
+    height: 400px;
+    width: 400px;
+}
+
+.bigbox button{
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+.bigbox h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.para4{
+    margin-top: 100px;
+    background-color: antiquewhite;
+}
+.grids2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 40px;
+}
